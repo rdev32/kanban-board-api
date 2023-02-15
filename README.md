@@ -1,6 +1,6 @@
 # Kanban Board API #
 Es un tablero donde se asignan posits(stickers con notas) dentro de cada sector, los sectores o columnas son buffer, working y done.
-- [ ] Antes de ingresar al tablero debe existir un registro y autenticación del usuario. (Los datos a considerar son name, email y password, usar una autenticación simple)
+- [ ] Antes de ingresar al tablero debe existir un registro y autenticación del usuario. (Los datos a considerar son name, email y password, usar una autenticación simple) *Implementado parcialmente*
 - [X] Cada card debe pertenecer en base de datos a un usuario
 - [X] Se debe poder agregar tarjetas. Las tarjetas tendrán nombre y descripción.
 - [X] Se podrá editar los valores de los card.
