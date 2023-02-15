@@ -20,3 +20,5 @@ Se han elaborado diferentes CRUDS(POST, GET, PUT, DELETE) para operar los difere
 - `http://localhost:5000/posits`
 - `http://localhost:5000/login`
 - `http://localhost:5000/register`
+
+*Los datos del .env estan en la carta enviada*
