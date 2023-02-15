@@ -3,8 +3,10 @@ import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
 
-import posit from './routes/posit.routes'
-import user from './routes/user.routes'
+import authRouter from './routes/auth.routes'
+import sessionRouter from './routes/session.routes'
+import positsRouter from './routes/posit.routes'
+import usersRouter from './routes/user.routes'
 
 const app = express()
 
@@ -15,7 +17,8 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-app.use(posit)
-app.use(user)
+app.use(authRouter)
+app.use(positsRouter)
+app.use(usersRouter)
 
 export default app

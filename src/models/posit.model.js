@@ -11,6 +11,11 @@ const positSchema = new Schema({
     required: true,
     trim: true
   },
+  owner: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+    required: true,
+  },
   versionKey: false
 })
 
