@@ -4,7 +4,6 @@ import morgan from 'morgan'
 import cors from 'cors'
 
 import authRouter from './routes/auth.routes'
-import sessionRouter from './routes/session.routes'
 import positsRouter from './routes/posit.routes'
 import usersRouter from './routes/user.routes'
 
